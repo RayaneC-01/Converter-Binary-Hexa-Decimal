@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+--bleu-bg:#5484ba;
+--blanc:#ffffff;
+--bleu-nuance:#0075ff;
+}
+
+body {
+  background-color: var(--bleu-bg);
+  /*background-image: url("Images/bubbles-230014_1280.jpg");*/
+}
+
+.container {
+  background-color: var(--blanc);
+  width: 70%;
+  height: 80vmin;
+  padding: 3em 2.5em;
+  position: absolute;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.62em;
+  box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h2 {
+  font-size: 1.8em;
+  color: var(--bleu-nuance);
+  text-align: center;
+  /*font-weight: 600;
+    letter-spacing: 0.5px;*/
+  margin: 0 0 15px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.8em;
+  align-items: flex-end;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 10px 0 0.5em 0;
+  font: 1.5em Verdana, Geneva, Tahoma, sans-serif;
+  color: #050121;
+}
+
+input {
+  position: relative;
+  font-size: 1.1em;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: 1.5px solid #43405c;
+  color: #43405c;
+  outline: none;
+}
+
+.button-container button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font: 1.5em Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--bleu-bg);
+  color: rgb(255, 255, 255);
+}
+.button-container button:hover{
+  background: var(--bleu-bg);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--bleu-bg), 0 0 10px var(--bleu-bg), 0 0 25px var(--bleu-bg), 0 0 100px var(--bleu-bg);
+}
+
+.button-container{
+  margin-top: 20px;
+}
+
+input:focus {
+  border-color: var(--bleu-nuance);
+}
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+#error-msg {
+  text-align: center;
+  margin-top: 1.25em;
+  color: #ff4362;
+}
+
+#error-msg2 {
+  text-align: center;
+  margin-top: 1.25em;
+  color: #ff4362;
+}
+
+@media (320px <= width <= 900px) {
+  
+  .container{
+    background-image: url(Images/bubbles-230014_1280.jpg);
+    width: 100%;
+    height: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      text-align: center;
+      font-size: 18px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+    h2 {
+      display: block;
+      font-size: 24px;
+      text-align: center;
+      font-weight: bold;
+      width: 200px;
+      height: 50px;
+    font:bolder 1em Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:.1rem;
+    margin: 0 0 2% 0;
+    color: #fff;
+  }
+
+  label, input{
+    text-align: left;
+    color: #fff;
+    font:bolder 1.5rem Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:.1rem;
+    padding: 2.2%;
+
+  }
+
+  .button-container button {
+    font:bolder 2em Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+  } 
+}
