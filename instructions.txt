@@ -1,0 +1,21 @@
+# Converter-Binary-Hexa-Decimal
+
+**Comment ça marche ?**
+
+**1. Saisie du Nombre** : L'utilisateur entre le nombre qu'il souhaite convertir dans l'interface du convertisseur. Il peut sélectionner la base du nombre d'origine (10, 2 ou 16) à l'aide d'options conviviales.
+
+**2.Conversion Automatique** : Une fois le nombre saisi, le convertisseur effectue automatiquement les calculs nécessaires pour obtenir l'équivalent dans les autres bases sélectionnées.
+
+**3. Résultats Clairs** : Les résultats des conversions sont affichés en temps réel, montrant le nombre dans toutes les bases sélectionnées. Cela permet aux utilisateurs de voir instantanément les correspondances et de vérifier l'exactitude des conversions.
+
+**4. Conversion Inversée** : Les utilisateurs peuvent également entrer un nombre dans une base différente et obtenir sa conversion dans d'autres bases, ce qui facilite la compréhension des relations entre les différentes bases numériques.
+
+**How It Works:**
+
+1. **Number Input** : The user enters the number they want to convert into the converter's interface. They can select the base of the original number (10, 2, or 16) using user-friendly options.
+
+Automatic Conversion: Once the number is input, the converter automatically performs the necessary calculations to obtain equivalents in the other selected bases.
+
+2. **Clear Results** : Conversion results are displayed in real-time, showing the number in all selected bases. This allows users to instantly see correspondences and verify the accuracy of conversions.
+
+3. **Reverse Conversion** : Users can also input a number in a different base and obtain its conversion in other bases, making it easy to understand relationships between different numeral bases.
