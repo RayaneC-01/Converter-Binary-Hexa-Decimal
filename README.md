@@ -3,7 +3,7 @@
 
 ## Comment Utiliser
 
-1. Accédez au carrousel en ouvrant le fichier **index.html** dans votre navigateur.
+1. Accédez au Convertisseur en ouvrant le fichier **index.html** dans votre navigateur.
 
  ## Aperçu 
 
