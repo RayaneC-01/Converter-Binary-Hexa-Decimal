@@ -1,10 +1,18 @@
 # Converter-Binary-Hexa-Decimal
 
+
+## Comment Utiliser
+
+1. Accédez au carrousel en ouvrant le fichier **index.html** dans votre navigateur.
+
+ ## Aperçu 
+
 **L'utilisateur entre le nombre qu'il souhaite convertir dans l'interface du convertisseur. 
 Il peut sélectionner la base du nombre d'origine (10, 2 ou 16).**
 
-Une fois le nombre saisi, le convertisseur effectue automatiquement les calculs nécessaires pour obtenir l'équivalent dans les autres bases sélectionnées.
-Les résultats des conversions sont affichés en temps réel, montrant le nombre dans toutes les bases sélectionnées. 
+**Une fois le nombre saisi, le convertisseur effectue automatiquement les calculs nécessaires pour obtenir
+l'équivalent dans les autres bases sélectionnées.**
+Les résultats des conversions sont affichés en temps réel, montrant le nombre dans toutes les bases sélectionnées.
 
 The user enters the number they want to convert into the converter's interface.
 They can select the base of the original number (10, 2, or 16).
